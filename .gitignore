@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/
+*.zip
+
+# Models
+models/
+
+# Submissions
+submissions/
+
+# CatBoost
+catboost_info/
+**/catboost_info/
+
+# VS Code
+.vscode/
+
+# Secrets
+.env
+.env.*
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
